@@ -31,7 +31,7 @@ jobs:
 
       - name: Download and extract latest my_tro worker
         run: |
-          wget https://raw.githubusercontent.com/camel52zhang/my_tro/refs/heads/main/_worker.js
+          wget https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/refs/heads/main/Vless_workers_pages/vless%E6%BA%90%E7%A0%81.js
           mv _worker.js origin.js
 
       - name: Clean existing obfuscated files  # 新增清理步骤
